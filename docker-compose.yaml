@@ -1,0 +1,18 @@
+services:
+  mbs-report:
+    build:
+      dockerfile: local.Dockerfile
+    container_name: mbs-report-container
+    volumes:
+      - .:/app
+    restart: always
+    ports:
+      - "5061:5061"
+      - "5062:5062"
+    networks:
+      - mbs
+
+networks:
+  mbs:
+    name: mbs
+    external: true

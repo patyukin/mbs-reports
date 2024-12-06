@@ -1,0 +1,7 @@
+/.idea/
+go_build_*
+config.yaml
+config-local.yaml
+/auth
+/bin/*
+/vendor.protogen/*
