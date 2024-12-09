@@ -7,7 +7,7 @@ RUN go mod download
 RUN go mod tidy
 RUN go build -o ./bin/report cmd/report/main.go
 
-FROM alpine3.20
+FROM alpine:3.20
 
 WORKDIR /app
 COPY --from=builder /app/bin/report .
