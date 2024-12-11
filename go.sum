@@ -113,8 +113,8 @@ github.com/ncruces/go-strftime v0.1.9/go.mod h1:Fwc5htZGVVkseilnfgOVb9mKy6w1naJm
 github.com/opentracing/opentracing-go v1.1.0/go.mod h1:UkNAQd3GIcIGf0SeVgPpRdFStlNbqXla1AfSYxPUl2o=
 github.com/opentracing/opentracing-go v1.2.0 h1:uEJPy/1a5RIPAJ0Ov+OIO8OxWu77jEv+1B0VhjKrZUs=
 github.com/opentracing/opentracing-go v1.2.0/go.mod h1:GxEUsuufX4nBwe+T+Wl9TAgYrxe9dPLANfrWvHYVTgc=
-github.com/patyukin/mbs-pkg v1.1.170 h1:nSifU+P9B/42j/aoYNm/aDzUkJq4h5IvEsryvNJZupg=
-github.com/patyukin/mbs-pkg v1.1.170/go.mod h1:VCSWZvSwRSwaGi8zvf1yn0V6m2x3yMwi5r5poxFiSEY=
+github.com/patyukin/mbs-pkg v1.1.172 h1:HaGKgxxScQYunIVvLwDrwSFAXjkEs7iU/RrV0jq2/90=
+github.com/patyukin/mbs-pkg v1.1.172/go.mod h1:VCSWZvSwRSwaGi8zvf1yn0V6m2x3yMwi5r5poxFiSEY=
 github.com/paulmach/orb v0.11.1 h1:3koVegMC4X/WeiXYz9iswopaTwMem53NzTJuTF20JzU=
 github.com/paulmach/orb v0.11.1/go.mod h1:5mULz1xQfs3bmQm63QEJA6lNGujuRafwA5S/EnuLaLU=
 github.com/paulmach/protoscan v0.2.1/go.mod h1:SpcSwydNLrxUGSDvXvO0P7g7AuhJ7lcKfDlhJCDw2gY=

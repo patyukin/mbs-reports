@@ -6,7 +6,7 @@ require (
 	github.com/go-playground/validator/v10 v10.23.0
 	github.com/google/uuid v1.6.0
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0
-	github.com/patyukin/mbs-pkg v1.1.170
+	github.com/patyukin/mbs-pkg v1.1.172
 	github.com/rabbitmq/amqp091-go v1.10.0
 	github.com/rs/zerolog v1.33.0
 	github.com/twmb/franz-go v1.18.0

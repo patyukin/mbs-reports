@@ -3,9 +3,10 @@ package db
 import (
 	"context"
 	"fmt"
+	"time"
+
 	"github.com/patyukin/mbs-pkg/pkg/model"
 	reportpb "github.com/patyukin/mbs-pkg/pkg/proto/report_v1"
-	"time"
 )
 
 type Repository struct {
