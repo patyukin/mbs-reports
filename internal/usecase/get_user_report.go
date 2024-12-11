@@ -5,11 +5,12 @@ import (
 	"context"
 	"encoding/csv"
 	"fmt"
+	"time"
+
 	"github.com/google/uuid"
 	"github.com/patyukin/mbs-pkg/pkg/proto/error_v1"
 	reportpb "github.com/patyukin/mbs-pkg/pkg/proto/report_v1"
 	"github.com/rs/zerolog/log"
-	"time"
 )
 
 func (u *UseCase) GetUserReportUseCase(ctx context.Context, in *reportpb.GetUserReportRequest) (*reportpb.GetUserReportResponse, error) {

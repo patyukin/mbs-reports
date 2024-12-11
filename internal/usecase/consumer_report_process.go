@@ -4,6 +4,7 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
+
 	"github.com/patyukin/mbs-pkg/pkg/model"
 	"github.com/rs/zerolog/log"
 	"github.com/twmb/franz-go/pkg/kgo"
@@ -24,10 +25,12 @@ func (u *UseCase) ConsumerReportProcess(ctx context.Context, record *kgo.Record)
 
 	var transactionsStatus []model.TransactionSendStatus
 	for _, transaction := range transactions {
-		transactionsStatus = append(transactionsStatus, model.TransactionSendStatus{
-			ID:         transaction.ID,
-			SendStatus: "COMPLETED",
-		})
+		transactionsStatus = append(
+			transactionsStatus, model.TransactionSendStatus{
+				ID:         transaction.ID,
+				SendStatus: "COMPLETED",
+			},
+		)
 	}
 
 	transactionsStatusBytes, err := json.Marshal(transactionsStatus)

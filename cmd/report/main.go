@@ -3,6 +3,12 @@ package main
 import (
 	"context"
 	"fmt"
+	"net"
+	"os"
+	"os/signal"
+	"syscall"
+	"time"
+
 	grpcPrometheus "github.com/grpc-ecosystem/go-grpc-prometheus"
 	"github.com/patyukin/mbs-pkg/pkg/dbconn"
 	"github.com/patyukin/mbs-pkg/pkg/grpc_server"
@@ -19,11 +25,6 @@ import (
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
 	"google.golang.org/grpc/reflection"
-	"net"
-	"os"
-	"os/signal"
-	"syscall"
-	"time"
 )
 
 const ServiceName = "ReportService"
